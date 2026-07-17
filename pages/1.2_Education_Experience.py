@@ -4,11 +4,16 @@ import os
 from ziko_st_toc import table_of_contents
 
 # --------- IMAGE PATHS ---------
-IMG_INTRO = "./resources/photo_intro.jpg"
-IMG_TA = "./resources/photo_TA.jpg"
-IMG_LRC = "./resources/photo_LRC.jpeg"
-IMG_OR = "./resources/photo_OR.png"
+# IMG_INTRO = "./resources/photo_intro.jpg"
+IMG_TA = "./resources/experience/photo_TA.jpg"
+IMG_LRC = "./resources/experience/photo_LRC.jpeg"
+IMG_OR = "./resources/experience/photo_OR.png"
 # -------------------------------------
+
+st.set_page_config(
+    page_title="CBJ Portfolio",
+    layout="wide"
+)
 
 # -------- SIDEBAR -------------
 with st.sidebar:
